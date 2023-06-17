@@ -1,0 +1,26 @@
+.search-box {
+  display: flex;
+}
+
+.button {
+  background-color: rgb(89, 89, 89);
+  width: 140px;
+  height: 55px;
+}
+
+.select-request {
+  width: 100px;
+}
+
+.url {
+  width: 60vw;
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 30px;
+  text-shadow: 0 0 2px #484242;
+  text-decoration: underline;
+}
