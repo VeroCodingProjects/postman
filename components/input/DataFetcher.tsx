@@ -1,7 +1,10 @@
 import { TextField } from '@mui/material';
 import React, { useState, ChangeEvent } from 'react';
 import RequestButton from '../button/RequestButton';
+<<<<<<< HEAD
 import HeadersValidation from '../headers/headers';
+=======
+>>>>>>> b1d5217fa76b33b1c9c74d9a4dfd859554555a26
 
 type InputFieldProps = {
   isLoading: boolean;
@@ -28,7 +31,10 @@ const InputField: React.FC<InputFieldProps> = ({
         required
       />
       <RequestButton onClick={fetchData} disabled={isLoading} />
+<<<<<<< HEAD
       <HeadersValidation></HeadersValidation>
+=======
+>>>>>>> b1d5217fa76b33b1c9c74d9a4dfd859554555a26
       {isLoading ? (
         <p>Loading...</p>
       ) : (

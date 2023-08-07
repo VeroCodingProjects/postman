@@ -19,7 +19,6 @@ import Button from '@mui/material/Button';
  */
 
 export default function Home() {
-
   const [requestType, setRequest] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState<any>();
