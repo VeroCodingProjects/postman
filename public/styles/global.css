@@ -24,3 +24,11 @@
   text-shadow: 0 0 2px #484242;
   text-decoration: underline;
 }
+
+table, th {
+  border:1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
